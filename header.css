@@ -1,0 +1,41 @@
+#lockup>a {
+    position: relative;
+    display: block;
+    width: 200px;
+    height: 90px
+}
+
+#lockup {
+    position: absolute;
+    top: -5.75em;
+    left: 1.25em;
+    height: 0;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none
+}
+
+#lockup object {
+    margin: 0;
+    padding: 0;
+    border: none
+}
+
+#lockup a:focus {
+    outline: 0
+}
+
+#lockup p {
+    color: #ed225d;
+    font-size: .7em;
+    font-family: Montserrat, sans-serif;
+    margin: .5em 0 0 8.5em
+}
+
+#lockup a:link {
+    border: transparent;
+    height: 4.5em;
+    width: 9.75em
+}

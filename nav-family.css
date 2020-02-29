@@ -1,0 +1,64 @@
+#family a:link,
+#family a:visited {
+    margin: .4em
+}
+
+#family a:active,
+#family a:hover {
+    margin: .4em;
+    border: none
+}
+
+#family {
+    position: absolute;
+    z-index: 9999;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: none;
+    margin: 0;
+    border-bottom: 1px solid rgba(51, 51, 51, .5);
+    -webkit-box-shadow: 0 0 10px #333;
+    box-shadow: 0 0 10px #333;
+    background-color: hsla(0, 0%, 100%, .85)
+}
+
+#family form {
+    float: right;
+    padding: .375em .75em;
+    margin-right: .25em
+}
+
+#family form input[type=text] {
+    visibility: hidden;
+    width: 0;
+    margin: 0;
+    color: #333;
+    border: 1px solid #3796d1;
+    font-family: Roboto!important;
+    font-weight: 400;
+    font-size: 1em;
+    -webkit-transition: width .1s;
+    -o-transition: width .1s;
+    transition: width .1s;
+    outline: none
+}
+
+#family form.form__open input[type=text] {
+    visibility: visible;
+    width: 9.75em
+}
+
+#family form input[type=submit] {
+    background: url(../img/search.png) 50% no-repeat;
+    border: none;
+    outline: none
+}
+
+.here {
+    color: #ED225D !important;
+    text-decoration: none;
+    padding-bottom: 0.1em;
+    border-bottom: transparent;
+    border-bottom-color: #ED225D;
+}

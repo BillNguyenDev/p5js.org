@@ -1,0 +1,38 @@
+#i18n-btn {
+    position: absolute;
+    top: 2.5em;
+    right: 1em
+}
+
+#i18n-btn a {
+    font-family: Montserrat, sans-serif
+}
+
+#i18n-buttons {
+    margin: 0
+}
+
+#i18n-buttons li {
+    list-style: none;
+    display: inline-block;
+    margin-left: .5em
+}
+
+#i18n-btn a {
+    border: none!important;
+    outline: none!important;
+    background: none!important;
+    font-size: .7em;
+    color: #ababab;
+    cursor: pointer!important;
+    z-index: 5
+}
+
+#i18n-btn a:hover {
+    color: #ed225d
+}
+
+#i18n-btn a.disabled {
+    color: #ed225d!important;
+    cursor: default!important
+}
